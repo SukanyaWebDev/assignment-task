@@ -1,0 +1,52 @@
+.list-of-features{
+    list-style-type:none;
+    display: flex;
+}
+li{
+    margin:10px;
+}
+.whats-app-logo{
+    color: rgb(128, 247, 128);
+    display: flex;
+}
+.whats-icon{
+    width:30px;
+    height:30px;
+    margin-right: 5px;
+}
+.down-btn{
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(115, 215, 115);
+    margin-left: 10px;
+}
+.continue-btn{
+    border-radius: 10px;
+    padding:10px;
+    color:#ffffff;
+    background-color: rgb(79, 169, 163);
+}
+a{
+    color:blue;
+}
+.whats-app-container{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+.header-container{
+    border-style: solid;
+    padding: 10px;
+    border-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:100px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 20px;
+}

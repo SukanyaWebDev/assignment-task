@@ -1,0 +1,139 @@
+.main-home-container{
+    height:200vh;
+    width:100vh;
+    display: flex;
+}
+.menus-container{
+    width:30%;
+    height: 100%;
+    background-color: antiquewhite;
+
+}
+.start-here-btn{
+    color:#ffffff;
+    padding: 14px;
+    background-image: linear-gradient(to right,#fc2c21,#3912e6,rgb(45, 167, 93)
+    );
+    border-width: 0px;
+    border-radius: 10px;
+   
+
+}
+.extend-btn{
+    background-color:#e72323;
+    padding:14px;
+    border-radius: 6px;
+    color:#ffffff;
+    border-width: 0px;
+
+    
+    
+    
+}
+
+.copy-donation-btn{
+    color:#ffffff;
+    padding: 14px;
+    background-image: linear-gradient(to right,#fc2c21,#3912e6,rgb(45, 167, 93));
+    border-radius: 10px;
+    border-width: 0px;
+    border-width: 0px;
+    margin-left: 10px;
+
+
+
+}
+.icons{
+    margin-right: 7px;
+    width:25px;
+}
+.rewards-btn{
+    color:#ffffff;
+    padding: 14px;
+    background-image: linear-gradient(to right,#fc2c21,#3912e6,rgb(45, 167, 93));
+    border-radius: 10px;
+    border-width: 0px;
+
+
+}
+.whats-button{
+    color:#ffffff;
+    padding: 14px;
+    background-image: linear-gradient(to right,#fc2c21,#3912e6,rgb(45, 167, 93));
+    border-radius: 10px;
+    border-width: 0px;
+   
+
+
+}
+.share-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dasboard-container{
+    width:70%;
+    height: 100%;
+    
+    
+}
+.home-image{
+    width:20px;
+    height:20px;
+    color:deeppink;
+}
+.header-container{
+    list-style-type: none;
+    display: flex;
+    padding-right: 40px;
+
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-style: solid; */
+    width: 100%;
+    
+}
+.dashboard{
+    padding-left: 30px;
+}
+.bottom-das-container{
+    background-color: darkgrey;
+    padding: 10px;
+    width:90vw;
+    height:100vh;
+
+}
+.image-container{
+    background-image: url("https://res.cloudinary.com/dxorhiaeo/image/upload/v1707925166/photo-1542810634-71277d95dcbb_orjlj3.jpg");
+   height:100vh;
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.user-container{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    
+}
+.goal-achieved-conat{
+    display: flex;
+
+}
+.goal-container{
+    width:50%;
+    margin-right: 10px;
+}
+.level-achieved-container{
+    width:50%;
+    
+}
