@@ -1,0 +1,22 @@
+.transaction-container{
+    background-color: rgb(241, 226, 226);
+    height:100vh;
+    padding: 20px;
+}
+.trans-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list-of-con-trans{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.disply-trans-containe{
+    border-style: solid;
+    padding: 20px;
+    background-color: wheat;
+    
+}
