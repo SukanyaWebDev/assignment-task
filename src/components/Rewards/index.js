@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import MenuPage from '../components/MenuPage';
+import MenuPage from '../MenuPage';
 import './index.css';
 
 const Rewards = () => {

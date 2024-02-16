@@ -7,7 +7,7 @@ import TransactionsPage from './components/TransactionsPage';
 import Login from './components/Login';
 import FAQPage from './components/FaqPage';
 import DonationPage from './components/DonationPage';
-import Rewards from './Rewards';
+import Rewards from './components/Rewards';
 import FeedbackPage from './components/FeedBack';
 import LearningModules from './components/LearningModule';
 
