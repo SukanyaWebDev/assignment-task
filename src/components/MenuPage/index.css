@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: center;
 
 }
 span{
@@ -49,16 +50,21 @@ span{
     align-items: center;
     justify-content:center;
     border-radius: 10px;
+    flex-direction: row;
 
 }
 .unorder-container{
     list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .dash-image{
-    width:30px;
-    height:30px;
-    margin-right: 20px;
+    width:20px;
+    height:20px;
+    margin-right: 10px;
 
 }
 .dasboard-text{
@@ -66,6 +72,13 @@ span{
 }
 .list-container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-self: center;
+}
+Link{
+    text-decoration: none;
+    
+}
+li{
+    text-decoration: none;
 }

@@ -1,5 +1,5 @@
 .main-home-container{
-    height:200vh;
+    height:100vh;
     width:100vh;
     display: flex;
 }
@@ -120,13 +120,23 @@
     justify-self: center;
 }
 .user-container{
-    display: inline;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    background-color: rebeccapurple;
+    border:1px solid gray;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 10px;
 }
 .goal-achieved-conat{
     display: flex;
+    width: 80%;
+    
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow:1px 0px 1px 0px whitesmoke;
 
 }
 .goal-container{

@@ -1,26 +1,44 @@
-.transaction-container{
+.transaction-container {
     background-color: rgb(241, 226, 226);
-    height:100vh;
+    height: 120vh;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
-.trans-header{
+
+.trans-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.list-of-con-trans{
+
+.list-of-con-trans {
     list-style-type: none;
     display: flex;
     align-items: center;
 }
-.disply-trans-containe{
+
+.disply-trans-containe {
     border-style: solid;
     padding: 20px;
     background-color: wheat;
-    
+
 }
-.transctions-list{
+.form-data-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-data-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.transctions-list {
     list-style-type: none;
     display: flex;
     justify-content: space-around;

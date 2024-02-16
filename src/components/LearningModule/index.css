@@ -1,0 +1,32 @@
+.learning-modules {
+    height: 120vh;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(95, 143, 95);
+  }
+  
+  .modules-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .module-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .module-item h3 {
+    margin-top: 0;
+  }
+  
+  .module-item p {
+    margin: 0;
+  }
+  
+  .module-item p:last-child {
+    margin-top: 10px;
+  }
+  

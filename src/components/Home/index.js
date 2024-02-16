@@ -1,5 +1,6 @@
 import { Component } from "react"
 import MenuPage from "../MenuPage"
+import { Link } from 'react-router-dom'
 import { AiOutlineHome } from "react-icons/ai";
 import { LuCopy } from "react-icons/lu";
 import { FaRegStar } from "react-icons/fa";
@@ -8,7 +9,10 @@ import "./index.css"
 
 
 class Home extends Component {
+
     render() {
+        const userName = localStorage.getItem("userName")
+
         return (
             <div className="main-home-container">
                 <div className="menus-container">
@@ -16,7 +20,7 @@ class Home extends Component {
                 </div>
                 <div className="dasboard-container">
                     <div className="user-container">
-                        <h1>Ashok kumar</h1>
+                        <h1>{userName}</h1>
                         <p>Fundariser</p>
 
                     </div>
@@ -30,16 +34,19 @@ class Home extends Component {
                             </ul>
                         </div>
                         <div className="image-container">
-                            <h1>Hello Ashok Kumar</h1>
-                            <p>nkm bcsc jisjhuschic  idjiwj ijcij bdyuwgiuwhij ijodjwo ihcijoj</p>
+                            <h1>Hello {userName}</h1>
+                            <p>Welcome to Our Donation Platform</p>
                         </div>
-                        
+
                         <div className="goal-achieved-conat">
                             <div className="goal-container"><h1>Goal Achived</h1></div>
                             <div className="share-container">
-                                <button type="button" className="whats-button"><MdIosShare className="icons" />Share on whatspp</button>
+                                <Link to="/share">
+                                    <button type="button" className="whats-button"><MdIosShare className="icons" />Share on whatspp</button>
+                                </Link>
 
-                    </div>
+
+                            </div>
                             <div className="level-achieved-container">
                                 <h1>Level Achieved:<span>Star</span></h1>
                                 <hr />
@@ -58,17 +65,19 @@ class Home extends Component {
                                 <button type="button" className="extend-btn">Extend Now</button>
                                 <hr />
                                 <p><span>Reference Code : </span>pra&432</p>
-                                <button className="start-here-btn" type="button">Start Here</button>
+                                <Link to="/donationpage">
+                                    <button className="start-here-btn" type="button">Start Here</button>
+                                </Link>
                             </div>
-                           
+
                         </div>
 
 
 
                     </div>
-                  
+
                 </div>
-            </div>
+            </div >
         )
     }
 }

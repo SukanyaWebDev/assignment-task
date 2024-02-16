@@ -1,0 +1,29 @@
+.mainPage {
+    display: flex;
+}
+
+/* FormDataDisplay.css */
+
+.donation-option {
+
+    background-color: rgb(118, 141, 133);
+    color: rgb(225, 210, 210);
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.cardsDiv {
+    display: flex;
+    padding: 20px;
+}
+.donation-form{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 600px;
+}
