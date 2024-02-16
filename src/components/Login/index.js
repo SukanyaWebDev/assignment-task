@@ -36,7 +36,7 @@ class Login extends Component {
 
         return (
             <div className="login-container">
-                <h1>This page Created By Sukanya</h1>
+                <h1>This page Created By Sukanya Talari</h1>
                 <h2>Login </h2>
                 <input
                     type="text"
