@@ -75,10 +75,15 @@ span{
     justify-content: center;
     align-items: center;
 }
+
 Link{
     text-decoration: none;
     
 }
 li{
+    text-decoration: none;
+}
+
+.link-class{
     text-decoration: none;
 }

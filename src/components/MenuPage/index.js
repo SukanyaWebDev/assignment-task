@@ -21,7 +21,7 @@ const MenuPage = () => (
             </p>
         </div>
         <div className='dash-conta'>
-            <Link to="/">
+            <Link to="/" className='link-class'>
                 <LuAirplay className="dash-image" />
                 <p className='dasboard-text'>Dasboard</p>
 
@@ -31,7 +31,7 @@ const MenuPage = () => (
         <ul className='unorder-container'>
             <li>
                 <div className='list-container'>
-                    <Link to="/transactions">
+                    <Link to="/transactions"  className='link-class'>
                         <SlList className="dash-image" />
                         <p>Transactions</p></Link>
 
@@ -39,7 +39,7 @@ const MenuPage = () => (
             </li>
             <li>
                 <div className='list-container'>
-                    <Link to="/donationpage">
+                    <Link to="/donationpage"  className='link-class'>
                         <FaArrowTurnDown className="dash-image" />
                         <p>Start Here</p>
                     </Link>
@@ -48,7 +48,7 @@ const MenuPage = () => (
             </li>
             <li>
                 <div className='list-container'>
-                    <Link to="/faq">
+                    <Link to="/faq"  className='link-class'>
                         <CiCircleQuestion className="dash-image" />
                         <p>FAQ</p>
                     </Link>
@@ -57,7 +57,7 @@ const MenuPage = () => (
             </li>
             <li>
                 <div className='list-container'>
-                    <Link to="/learningmodules">
+                    <Link to="/learningmodules"  className='link-class'>
                         <IoMdBook className="dash-image" />
                         <p>Learning Modules</p>
                     </Link>
@@ -65,8 +65,8 @@ const MenuPage = () => (
                 </div>
             </li>
             <li>
-                <div className='list-container'>
-                    <Link to="/rewards">
+                <div className='list-container'  >
+                    <Link to="/rewards"  className='link-class'>
                         <IoStarOutline className="dash-image" />
                         <p>Rewards</p>
 
@@ -76,7 +76,7 @@ const MenuPage = () => (
             </li>
             <li>
                 <div className='list-container'>
-                    <Link to="/feedback">
+                    <Link to="/feedback"  className='link-class'>
                         <MdOutlineFeedback className="dash-image" />
                         <p>Feedback</p>
                     </Link>
